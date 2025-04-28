@@ -1,0 +1,6 @@
+current_user_object_id       = "d101fee8-b41b-4a2d-8d30-d00c6fc9f884"
+data_engineer_user_object_id = "49a9de27-12c5-4eb6-9749-5e2f3cad610a"
+sql_admin_password           = "NzqGWBoc8v6S"
+sql_admin_username           = "sqladminuser"
+tenant_id                    = "e4fa2e28-d8ff-4dde-a7c9-fe565d955f6e"
+subscription_id              = "dc5f2aa1-f455-4147-92b5-557bb33b5a5d"
