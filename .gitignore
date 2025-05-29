@@ -1,11 +1,20 @@
-# Terraform
+# Terraform files
 *.tfstate
 *.tfstate.backup
 .terraform/
 *.tfvars
 secrets.auto.tfvars
 tfplan
+.secrets/
+
+# Local secrets
+secrets/bigdataintegrationsecrets.txt
 
 # Local env
 .env
 *.lock.hcl
+
+# IDE and temp files
+.vscode/
+.idea/
+*.log
