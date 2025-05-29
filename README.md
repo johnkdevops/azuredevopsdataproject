@@ -39,7 +39,7 @@ git clone https://github.com/<your-username>/azurdevopsdataproject.git
 cd azuredevopsdataproject
 
 
-azure-devops-data-terraform/
+azuredevopsdataproject/
 ├── main.tf                        # Root module calling child modules
 ├── variables.tf                   # Input variables
 ├── outputs.tf                     # Outputs (e.g., storage_account_name)
