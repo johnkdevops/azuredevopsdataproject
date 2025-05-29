@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.116.0"
+      version = "~> 4.27.0"
     }
     databricks = {
       source  = "databricks/databricks"
@@ -25,11 +25,3 @@ provider "azurerm" {
   subscription_id = var.subscription_id
 }
 
-# provider "databricks" {
-#   host     = azurerm_databricks_workspace.databricks.workspace_url
-#   token    = var.databricks_auth_token
-# Alternatively, for service principal authentication:
-# azure_client_id     = var.azure_client_id
-# azure_client_secret = var.azure_client_secret
-# azure_tenant_id     = var.tenant_id
-# }
