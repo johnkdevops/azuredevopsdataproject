@@ -31,10 +31,12 @@ The infrastructure is modularized for reusability and maintainability, with sepa
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 1. Fork this repo
+
+### 2. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/azure-devops-data-terraform.git
-cd azure-devops-data-terraform
+git clone https://github.com/<your-username>/azurdevopsdataproject.git
+cd azuredevopsdataproject
 
 
 azure-devops-data-terraform/
